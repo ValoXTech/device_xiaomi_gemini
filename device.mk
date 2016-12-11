@@ -142,8 +142,8 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig
 
 # ConfigPanel
-PRODUCT_PACKAGES += \
-    ConfigPanel \
+#PRODUCT_PACKAGES += \
+    ConfigPanel
 
 # Display
 PRODUCT_PACKAGES += \
@@ -158,7 +158,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/calib.cfg:system/etc/calib.cfg
 
 # Doze mode
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     XiaomiDoze
 
 # Fingerprint
